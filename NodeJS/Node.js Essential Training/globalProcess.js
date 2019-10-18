@@ -22,7 +22,7 @@ console.log(`Your name is ${firstName} ${lastName}`);
 const grab = flag => {
     let indexAfterFlag = process.argv.indexOf(flag) + 1;
     return process.argv[indexAfterFlag];
-}
+};
 
 //provide flags to give names to variables we are passing:
 //node globalProcess --user Rahul --greeting "Welcome to Node world!"
