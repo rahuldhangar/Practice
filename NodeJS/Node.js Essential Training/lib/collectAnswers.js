@@ -7,7 +7,7 @@ const rl = readLine.createInterface({
     output: process.stdout
 });
 
-module.exports = (questions, done) => {
+module.exports = (questions, done = f => f) => {
     const answers = [];
     // destructuring the question from the array of questions
     const [firstQuestion] = questions;
