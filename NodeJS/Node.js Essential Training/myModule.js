@@ -5,6 +5,17 @@
  * The require() function is a part of Node.js module pattern but only represents half of the pattern;
  * the half that loads the module. The other half of the pattern is module.exports
  * where the mechanism that we use to export data and functinality from a module.
- * Below here, we are exporting the name so that it can be used in another file named app.js
+ * Below here we created a count variable and three methods: inc, dec & getCount which we export to get consumed in app
  */
-module.exports = "Rahul";
+let count = 0;
+
+const inc = () => ++count;
+const dec = () => --count;
+
+const getCount = () => count;
+
+module.exports = {
+    inc,
+    dec,
+    getCount
+};
