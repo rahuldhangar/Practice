@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Selenium WebDrivers
+chromedriver*
+geckodriver*
+*.exe
+
+# Project outputs
+*.xlsx
+*.xls
+last_processed_district.txt
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
