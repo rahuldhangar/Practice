@@ -1,0 +1,77 @@
+# PIB Data Extraction - Git Ignore File
+# =====================================
+
+# Generated Excel Files
+*.xlsx
+*.xls
+*.csv
+
+# Log Files
+*.log
+
+# Python Cache Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+.env/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Debug Files
+debug_*.html
+debug_*.txt
+
+# Selenium WebDriver Files
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
+msedgedriver.exe
+
+# Project Specific - PIB Extraction Generated Files
+PIB_*.xlsx
+PIB_*.xls
+pib_*.log
+*_extraction_*.log
+*_progress.json
+temp_pib_data_*.xlsx
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+.coverage
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
